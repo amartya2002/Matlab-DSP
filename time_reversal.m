@@ -7,12 +7,14 @@ xlabel('Time')
 ylabel('Amplitude')
 title('Original')
 axis([-4 5 0 8]);
+grid on;
 
-m1=-n1;
+m1=n1/2;  % code : multiplication=expansion
 subplot(2,1,2)
 stem(m1,x1);
 xlabel('Time')
 ylabel('Amplitude')
-title('right shifted / Time Delay')
+title('Time Compression/Downsampling')
 axis([-4 5 0 8]);
+grid on;
 
